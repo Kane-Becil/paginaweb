@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Inmigración en España — Panorama, datos y recursos</title>
+	<meta name="description" content="Recursos, historia, estadísticas y testimonios sobre la inmigración en España. Sitio educativo, responsivo y accesible." />
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="site-header">
+		<div class="container">
+			<h1 class="brand">Inmigración en España</h1>
+			<nav aria-label="Navegación principal">
+				<ul class="nav">
+					<li><a href="#intro">Inicio</a></li>
+					<li><a href="#datos">Datos</a></li>
+					<li><a href="#leyes">Marco legal</a></li>
+					<li><a href="#retos">Retos</a></li>
+					<li><a href="#recursos">Recursos y ayuda</a></li>
+				</ul>
+			</nav>
+			<button id="themeToggle" aria-pressed="false" title="Cambiar tema">🌙</button>
+		</div>
+	</header>
+
+	<main>
+		<section id="intro" class="hero">
+			<div class="container">
+				<h2>Un recorrido por la inmigración en España</h2>
+				<p class="lead">Información condensada, accesible y lista para divulgación educativa: historia, cifras, contexto legal, retos y testimonios reales.</p>
+				<p class="cta"><a href="#datos" class="btn">Ver estadísticas</a> <a href="#recursos" class="btn ghost">Recursos y ayuda</a></p>
+			</div>
+		</section>
+
+		<section id="datos" class="section container">
+			<h3>Datos y estadísticas (ejemplo)</h3>
+			<p>Los siguientes números son ejemplos ilustrativos. Sustituir con cifras actualizadas de <a href="https://www.ine.es" target="_blank" rel="noopener">INE</a> y <a href="https://ec.europa.eu/eurostat" target="_blank" rel="noopener">Eurostat</a>.</p>
+
+			<div class="cards">
+				<div class="card">
+					<h4>Población extranjera</h4>
+					<p class="big">~5.0M</p>
+					<p class="muted">Personas nacidas en el extranjero residentes en España (ejemplo)</p>
+				</div>
+				<div class="card">
+					<h4>Principales países origen</h4>
+					<ul>
+						<li>Rumanía</li>
+						<li>Marruecos</li>
+						<li>Colombia</li>
+						<li>Venezuela</li>
+					</ul>
+				</div>
+				<div class="card">
+					<h4>Tasa de integración laboral</h4>
+					<p class="big">~62%</p>
+					<p class="muted">Porcentaje de ocupación entre población inmigrante (ejemplo)</p>
+				</div>
+			</div>
+
+			<h4>Gráfico: Flujos recientes</h4>
+			<canvas id="chart" width="600" height="240" aria-label="Gráfico de barras de flujos de inmigración"></canvas>
+		</section>
+
+		<section id="historia" class="section container">
+			<h3>Breve historia</h3>
+			<p>La inmigración en España ha cambiado drásticamente en las últimas décadas: de país emisor a receptor. Factores económicos, geográficos y políticos han influido en distintos periodos (años 90, 2000, crisis de 2008, recuperaciones y cambios recientes).</p>
+		</section>
+
+		<section id="leyes" class="section container">
+			<h3>Marco legal y derechos</h3>
+			<p>Explicación resumida sobre permisos de residencia, asilo, protección internacional, reagrupación familiar y los derechos básicos: educación, sanidad y trabajo. Consultar siempre la normativa actualizada en la <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> y sitios oficiales.</p>
+		</section>
+
+		<section id="retos" class="section container">
+			<h3>Retos y oportunidades</h3>
+			<ul>
+				<li>Inserción laboral y reconocimiento de títulos.</li>
+				<li>Acceso a vivienda asequible.</li>
+				<li>Lengua, educación y cohesión social.</li>
+				<li>Políticas públicas y coordinación internacional.</li>
+			</ul>
+		</section>
+
+		<section id="testimonios" class="section container">
+			<h3>Testimonios</h3>
+			<blockquote>
+				"Llegué con mucha incertidumbre, pero tuve apoyo local que me ayudó a encontrar trabajo y aprender el idioma." — María, 2017
+			</blockquote>
+		</section>
+
+		<section id="recursos" class="section container">
+			<h3>Recursos útiles</h3>
+			<ul>
+				<li><a href="#">Guías prácticas para trámites</a></li>
+				<li><a href="#">ONGs y puntos de atención</a></li>
+				<li><a href="#">Formación y aprendizaje del idioma</a></li>
+			</ul>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">
+			<p>Creado para divulgación educativa. Actualiza datos y fuentes antes de publicar.</p>
+			<p class="muted">Fuentes sugeridas: INE, Eurostat, ACNUR, BOE.</p>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
